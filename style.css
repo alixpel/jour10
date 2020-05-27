@@ -1,0 +1,133 @@
+
+/* divs */
+
+header {
+  align-items: center;
+  background-image:url("img/header_background.jpg");
+  background-size: contain;
+  background-repeat: repeat-y;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 21rem;
+  padding-top: 3rem;
+}
+
+.hr-div {
+  background-color: salmon;
+  height: 0.5rem;
+  width: 100%;
+}
+
+.container {
+  padding-top: 1rem;
+}
+
+.form {
+  background-color: rgb(240, 240, 240);
+  border: 0.5rem solid salmon;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem 1rem 2rem 2rem;
+}
+
+.champ {
+  margin-bottom: 0.6rem;
+}
+
+footer {
+  background-color: #daaa3e;
+  padding: 2rem;
+}
+
+/* titles */
+
+h1 {
+  font-family: 'Crimson Pro', serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Crimson Pro', serif;
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  font-family: 'Crimson Pro', serif;
+}
+
+/* text */
+
+p {
+  color: salmon;
+  font-family: 'Crimson Pro', serif;
+  font-size: 1rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+/* inputs */
+
+input {
+  background: rgb(255, 255, 255);
+  border: 0px;
+  border-radius: 0.5rem;
+}
+
+input:focus {
+  border: 2px solid salmon;
+}
+
+.error {
+  background-color: gold;
+  border: 1px solid grey;
+  border-radius: 0.2rem;
+  color: blue;
+  padding: 0.4rem;
+  text-align: center;
+  width: 50%;
+}
+
+.erreurchamp {
+  color: red;
+  font-weight: bold;
+}
+
+/* labels */
+
+label {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.4rem;
+}
+
+/* buttons */
+
+button {
+    background: salmon;
+    border: 0px;
+    border-radius: 0.5rem;
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.6rem;
+    margin: 0.5rem 2rem 0.5rem 1rem;
+    padding: 0.2rem 1rem;
+}
+
+button:hover {
+  background: #fa563e;
+  color: white;
+  transition: transform 450ms, background-color 300ms 150ms, color 600ms;
+}
+
+button:not(:hover) {
+  transition: all 300ms ease-out;
+}
+
+/* img */
+
+img {
+  margin-top: 4rem;
+  opacity: 0.5;
+}

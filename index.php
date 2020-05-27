@@ -26,7 +26,7 @@
 
       <div class="message-bonjour">
         <h1>Connection</h1>
-        <h3>Salut ! &nbsp🪐</h3>
+        <h3>Salut !</h3>
       </div>
       <div class="form">
 
@@ -49,16 +49,16 @@
            <!-- fin fonctions -->
 
           <div class="champ <?php addClassErreurChamp("pseudo"); ?>">
-            <label for="pseudo">Pseudo : </label>
+            <label for="pseudo">pseudo : </label>
             <input name="pseudo" type="text"><br>
           </div>
 
           <div class="champ <?php addClassErreurChamp("password"); ?>">
-            <label for="password">Mot de passe : </label>
+            <label for="password">mot de passe : </label>
             <input name="password" type="text"><br>
           </div>
 
-          <button type="submit">Valider</button>
+          <button type="submit">valider</button>
 
         </form>
 
@@ -67,7 +67,7 @@
     </div>
 
     <footer>
-      <p>© alixpelletier</p>
+      <p class="copyright">© alixpelletier</p>
     </footer>
     </body>
     </html>

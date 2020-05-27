@@ -34,11 +34,16 @@ header {
 
 .champ {
   margin-bottom: 0.6rem;
+  width: 40%;
 }
 
 footer {
+  align-items: flex-end;
   background-color: #daaa3e;
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 6rem 2rem 0rem 2rem;
 }
 
 /* titles */
@@ -55,6 +60,7 @@ h2 {
 
 h3 {
   font-family: 'Crimson Pro', serif;
+  text-align: center;
 }
 
 /* text */
@@ -66,6 +72,8 @@ p {
 }
 
 footer p {
+  color: #da3939;
+  font-size: 1.2rem;
   text-align: center;
 }
 
